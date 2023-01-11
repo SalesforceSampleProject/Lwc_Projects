@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flexiPageRegions>
+        <name>region1</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentName>searchComponent</componentName>
+                <identifier>c_searchComponent</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>region2</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentName>displayingtheText</componentName>
+                <identifier>c_displayingtheText</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>region3</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <name>region4</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <masterLabel>Sample Components</masterLabel>
+    <template>
+        <name>flexipage:appHomeTemplateHeaderThreeColumns</name>
+    </template>
+    <type>AppPage</type>
+</FlexiPage>
